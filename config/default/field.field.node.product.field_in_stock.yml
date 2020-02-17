@@ -1,0 +1,23 @@
+uuid: 1c8dbef9-ed2a-4c10-bce0-ae72469b8665
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_in_stock
+    - node.type.product
+id: node.product.field_in_stock
+field_name: field_in_stock
+entity_type: node
+bundle: product
+label: 'In Stock'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'Available Now'
+  off_label: 'Not Available'
+field_type: boolean

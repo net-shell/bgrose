@@ -1,0 +1,11 @@
+uuid: 21b75129-af39-477b-8124-2ba81b17595b
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.materials
+id: taxonomy_term.materials
+target_entity_type_id: taxonomy_term
+target_bundle: materials
+default_langcode: site_default
+language_alterable: false

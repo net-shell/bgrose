@@ -1,0 +1,11 @@
+uuid: bb646ad7-abe2-44a5-a636-358108f9906f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.welcome_user
+id: block_content.welcome_user
+target_entity_type_id: block_content
+target_bundle: welcome_user
+default_langcode: site_default
+language_alterable: false

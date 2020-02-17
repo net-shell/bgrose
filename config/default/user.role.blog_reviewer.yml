@@ -1,0 +1,19 @@
+uuid: 68bf4405-82ed-48d8-9955-8eb9da0642e1
+langcode: en
+status: true
+dependencies: {  }
+id: blog_reviewer
+label: 'Blog reviewer'
+weight: 8
+is_admin: false
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'delete any blog content'
+  - 'edit any blog content'
+  - 'use editorial transition archive'
+  - 'use editorial transition publish'
+  - 'use editorial transition review'
+  - 'use moderation sidebar'
+  - 'view any unpublished content'
+  - 'view latest version'

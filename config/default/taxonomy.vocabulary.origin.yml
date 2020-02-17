@@ -1,0 +1,8 @@
+uuid: 9cf92cce-910b-4ef7-bbd7-049fbd9abb0a
+langcode: en
+status: true
+dependencies: {  }
+name: Origin
+vid: origin
+description: 'Origin of the shop products'
+weight: 0

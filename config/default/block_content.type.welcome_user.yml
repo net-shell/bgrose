@@ -1,0 +1,8 @@
+uuid: 86dc8e95-dc1a-471f-81bc-2580ee409a00
+langcode: en
+status: true
+dependencies: {  }
+id: welcome_user
+label: 'Welcome User'
+revision: 1
+description: ''

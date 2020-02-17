@@ -1,0 +1,15 @@
+uuid: 601d296f-f0c3-4d62-9769-8feceacff032
+name: 'Bulgarian Rose'
+mail: info@bulgarianrose.net
+slogan: 'A Beautiful Collection of Hand-crafted Rose Products'
+page:
+  403: ''
+  404: ''
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
+mail_notification: ''

@@ -1,0 +1,10 @@
+entity_blocks:
+  - contact_form
+  - contact_message
+  - media
+  - node
+  - path_alias
+  - taxonomy_term
+  - user
+_core:
+  default_config_hash: 20jIYm8n8y8MdKKoXn79lK7WT2uBJwmenY3uwDywDNE

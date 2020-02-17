@@ -1,0 +1,14 @@
+uuid: ef2cfb73-370c-4743-8e0c-da209ef42a5c
+langcode: en
+status: true
+dependencies:
+  module:
+    - lightning_core
+    - path_alias
+third_party_settings:
+  lightning_core:
+    internal: true
+id: path_alias.token
+label: Token
+targetEntityType: path_alias
+cache: true

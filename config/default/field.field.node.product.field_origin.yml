@@ -1,0 +1,33 @@
+uuid: 3ac89416-bf5a-4fdd-ab33-2cc363d6d00c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_origin
+    - node.type.product
+    - taxonomy.vocabulary.origin
+  content:
+    - 'taxonomy_term:origin:fe0aee75-8027-4e18-86f4-c1cba8586b2e'
+id: node.product.field_origin
+field_name: field_origin
+entity_type: node
+bundle: product
+label: Origin
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: fe0aee75-8027-4e18-86f4-c1cba8586b2e
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      origin: origin
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

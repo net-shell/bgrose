@@ -1,0 +1,19 @@
+session:
+  parameter: language
+url:
+  source: path_prefix
+  prefixes:
+    en: ''
+    bg: bg
+    fr: fr
+    ru: ru
+    zh-hant: zh-hant
+  domains:
+    en: ''
+    bg: ''
+    fr: ''
+    ru: ''
+    zh-hant: ''
+selected_langcode: site_default
+_core:
+  default_config_hash: uEePITI9tV6WqzmsTb7MfPCi5yPWXSxAN1xeLcYFQbM

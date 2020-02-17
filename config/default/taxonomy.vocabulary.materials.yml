@@ -1,0 +1,8 @@
+uuid: 5d8cc86f-0d94-412b-a0e0-cdfa40337806
+langcode: en
+status: true
+dependencies: {  }
+name: Materials
+vid: materials
+description: 'Materials used for the production of shop products'
+weight: 0
