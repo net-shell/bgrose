@@ -1,0 +1,15 @@
+{#
+
+Description text for the Welcome Block.
+
+#}
+
+{% set block_admin_page = url('block.admin_display')['#markup'] %}
+
+{% trans %}
+
+<p>The Welcome Block provides a block which demonstrates the various
+  block APIs. Enable and configure the module on
+  <a href="{{ block_admin_page }}">the block admin page</a>.</p>
+
+{% endtrans %}

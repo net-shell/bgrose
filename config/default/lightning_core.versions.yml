@@ -1,8 +1,10 @@
 autosave_form: 1.1.0
+better_exposed_filters: 4.0.0-alpha1
 bg_image_formatter: 1.11.0
 blazy: 2.0.0-rc6
 block: 8.8.1
 block_content: 8.8.1
+block_welcome: 1.0.0
 breakpoint: 8.8.1
 ckeditor: 8.8.1
 color: 8.8.1

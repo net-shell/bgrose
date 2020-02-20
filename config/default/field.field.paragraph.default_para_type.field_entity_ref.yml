@@ -1,0 +1,26 @@
+uuid: 3561fefc-5cca-468c-b3e2-eca81a5fdc6b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.chart
+    - field.storage.paragraph.field_entity_ref
+    - paragraphs.paragraphs_type.default_para_type
+id: paragraph.default_para_type.field_entity_ref
+field_name: field_entity_ref
+entity_type: paragraph
+bundle: default_para_type
+label: 'Entity Ref'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: 528e3709-f0f3-4d89-8d55-2feefcd70f6c
+default_value_callback: ''
+settings:
+  handler: 'default:block_content_type'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: entity_reference

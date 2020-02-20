@@ -1,0 +1,8 @@
+uuid: 528e3709-f0f3-4d89-8d55-2feefcd70f6c
+langcode: en
+status: true
+dependencies: {  }
+id: chart
+label: 'Custom Type'
+revision: 1
+description: 'Custom stuff'

@@ -1,0 +1,7 @@
+block.settings.welcome_block_configurable_text:
+  type: block_settings
+  label: 'Welcome text block configuration'
+  mapping:
+    block_welcome_string:
+      type: text
+      label: 'Greeting'

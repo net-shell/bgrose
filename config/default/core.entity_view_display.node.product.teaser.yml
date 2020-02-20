@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.product.field_compound_body
     - field.field.node.product.field_description
     - field.field.node.product.field_images
     - field.field.node.product.field_in_stock
@@ -116,6 +117,7 @@ content:
       link: true
     third_party_settings: {  }
 hidden:
+  field_compound_body: true
   field_description: true
   field_origin: true
   field_weight: true

@@ -1,0 +1,10 @@
+uuid: c7c51fb6-a8f1-43ce-9333-e775cafde485
+langcode: en
+status: true
+dependencies: {  }
+id: default_para_type
+label: 'Default Para Type'
+icon_uuid: null
+icon_default: null
+description: 'something something'
+behavior_plugins: {  }

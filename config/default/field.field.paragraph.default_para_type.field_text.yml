@@ -1,0 +1,21 @@
+uuid: 7abf1bf1-68a0-48f3-b678-0dae36381ab3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text
+    - paragraphs.paragraphs_type.default_para_type
+  module:
+    - text
+id: paragraph.default_para_type.field_text
+field_name: field_text
+entity_type: paragraph
+bundle: default_para_type
+label: Text
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

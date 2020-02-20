@@ -1,0 +1,11 @@
+uuid: c4c03266-d080-49c0-a11c-266ff06de637
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.chart
+id: block_content.chart
+target_entity_type_id: block_content
+target_bundle: chart
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,24 @@
+uuid: ea200aad-84bf-434e-85b7-377e664a32a6
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_welcome
+  theme:
+    - bartik
+id: welcomeblock
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: block_welcome
+settings:
+  id: block_welcome
+  label: 'Welcome block'
+  provider: block_welcome
+  label_display: visible
+  block_welcome_text: 'Welcome, '
+  block_welcome_image:
+    value: ''
+    0: '15'
+visibility: {  }

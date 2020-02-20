@@ -1,0 +1,31 @@
+uuid: e79ce12f-37dc-40fa-9965-64493699b2ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_compound_body
+    - node.type.product
+    - paragraphs.paragraphs_type.default_para_type
+  module:
+    - entity_reference_revisions
+id: node.product.field_compound_body
+field_name: field_compound_body
+entity_type: node
+bundle: product
+label: 'Compound Body'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      default_para_type: default_para_type
+    target_bundles_drag_drop:
+      default_para_type:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

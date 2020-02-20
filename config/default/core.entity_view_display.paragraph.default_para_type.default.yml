@@ -1,0 +1,41 @@
+uuid: 4220640f-de01-4e5e-853c-8791577c098e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.default_para_type.field_entity_ref
+    - field.field.paragraph.default_para_type.field_text
+    - field.field.paragraph.default_para_type.field_title
+    - paragraphs.paragraphs_type.default_para_type
+  module:
+    - text
+id: paragraph.default_para_type.default
+targetEntityType: paragraph
+bundle: default_para_type
+mode: default
+content:
+  field_entity_ref:
+    weight: 2
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_text:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_title:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  search_api_excerpt: true

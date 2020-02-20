@@ -1,0 +1,45 @@
+uuid: 59e804aa-fb04-4d9f-b3da-89d0c6c5b528
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.default_para_type.field_entity_ref
+    - field.field.paragraph.default_para_type.field_text
+    - field.field.paragraph.default_para_type.field_title
+    - paragraphs.paragraphs_type.default_para_type
+  module:
+    - text
+id: paragraph.default_para_type.default
+targetEntityType: paragraph
+bundle: default_para_type
+mode: default
+content:
+  field_entity_ref:
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_text:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

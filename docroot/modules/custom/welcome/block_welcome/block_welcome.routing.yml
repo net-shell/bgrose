@@ -1,0 +1,7 @@
+block_welcome.description:
+  path: '/ffw/block_welcome'
+  defaults:
+    _controller: '\Drupal\block_welcome\Controller\BlockWelcomeController::description'
+    _title: 'Welcome Block'
+  requirements:
+    _permission: 'access content'
